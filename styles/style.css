@@ -21,6 +21,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 nav ul li {
@@ -30,15 +31,16 @@ nav ul li {
     line-height: 30px;
 }
 
-a {
+.navbar-light .navbar-nav .nav-link  {
     color: white;
     font-family: "Lucida Console", "Courier New", monospace;
     text-decoration: none;
     font-weight: bold;
 }
 
-a:hover {
+.navbar-light .navbar-nav .nav-link:hover {
     opacity: 0.7;
+    color: white;
 }
 
 img {
@@ -48,25 +50,31 @@ img {
     margin-top: 2%;
 }
 
+a {
+    text-align: center;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
 h1 {
     text-align: center;
     color: blueviolet;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     margin-top: 1%;
+    font-size: xx-large;
 }
 
 h2 {
     text-align: center;
     color: blueviolet;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
 }
 
-h3 {
-    text-align: center;
-    color: blueviolet;
-
-}
 
 p {
     color: blueviolet;
@@ -88,6 +96,12 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.card{
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .message {
