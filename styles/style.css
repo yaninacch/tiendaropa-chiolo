@@ -36,6 +36,7 @@ nav ul li {
     font-family: "Lucida Console", "Courier New", monospace;
     text-decoration: none;
     font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -43,6 +44,22 @@ nav ul li {
     color: white;
 }
 
+.menu-button:focus {
+    box-shadow: none;
+    border: 1px solid lightgray;
+}
+
+.menu-icon{
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
+.menu-word{
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
 img {
     display: block;
     margin-left: auto;
@@ -56,6 +73,7 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
+
 
 h1 {
     text-align: center;
@@ -179,6 +197,8 @@ i {
 
 }
 
+
+
 .instagram-acc {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -235,6 +255,18 @@ i {
     grid-area: footer-grid;
 }
 
+@media screen and (max-width: 990px) {
+    nav {
+        height: auto;
+        
+    }  
+    img {
+        max-width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+    }  
+}
+
 
 @media screen and (max-width: 768px) {
     nav {
@@ -252,11 +284,11 @@ i {
     }
 
     h1{
-        font-size: medium;
+        font-size: large;
         font-weight: bold;
     }
     h2{
-        font-size: small;
+        font-size: medium;
     }
 
     .quienes-container {
