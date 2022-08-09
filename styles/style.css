@@ -60,6 +60,10 @@ nav ul li {
     font-weight: bold;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+.logo-icon{
+    margin-top: 0%;
+    margin-left: 0%;
+}
 img {
     display: block;
     margin-left: auto;
