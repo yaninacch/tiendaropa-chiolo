@@ -52,6 +52,13 @@ nav ul li {
 .menu-icon{
     margin-left: 0rem;
     margin-top: 0rem;
+    font-size: 25px;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: 4px solid white;
+    padding: .8rem;
+    border-radius: 50%;
 }
 .menu-word{
     color: white;
@@ -176,53 +183,7 @@ p {
     font-size: 1rem;
 }
 
-iframe {
-    display: block;
-    margin-left: auto;
-    width: 40%;
-}
 
-footer {
-    background-color: #f8ceec;
-    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
-    margin-top: 20%;
-    border-top: 6px solid plum;
-    display: flex;
-}
-
-i {
-    font-size: 47px;
-    color: white;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    border: 4px solid white;
-    padding: .8rem;
-    border-radius: 50%;
-
-}
-
-
-
-.instagram-acc {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    font-weight: bold;
-    margin-left: 1rem;
-}
-
-.facebook-acc {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    font-weight: bold;
-    margin-left: 1rem;
-}
-
-.social-media {
-    display: flex;
-    flex-direction: column;
-}
 
 /* Seccion quienes somos grid */
 
