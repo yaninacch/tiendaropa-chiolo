@@ -55,3 +55,28 @@ footer {
     }
 
 }
+
+@media  screen and (max-width: 768px) {
+    footer{
+        flex-direction: nth($direction, 1 );
+        .social-media{
+            flex-direction: nth($direction, 2 );
+            padding: nth($bank, 1 );
+        }
+        i{
+            font-size: nth($size, 4 );
+        }
+        .instagram-acc{
+            font-size: smaller;
+        }
+        .facebook-acc{
+            font-size: smaller;
+        }
+        iframe{
+            margin-left: 0%;
+            width: nth($wideness, 5);
+        }
+    }
+    
+    
+}

@@ -1,0 +1,39 @@
+@mixin titulos {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 1%;
+
+}
+
+$colors: blueviolet;
+$tamaño: xx-large;
+
+@mixin colores ($colors, $tamaño) {
+    color: $colors;
+    font-size: $tamaño;
+}
+
+@mixin media-queries {
+    @media screen and (max-width:768px) {
+        @content;
+    }
+}
+
+h1 {
+    font-size: large;
+    font-weight: bold;
+
+}
+
+
+h1 {
+    @include titulos();
+    @include colores ($colors, $tamaño);
+
+    @include media-queries {
+        font-size: large;
+        font-weight: bold;
+    }
+
+}

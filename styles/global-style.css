@@ -85,14 +85,13 @@ a {
     text-decoration: none;
 }
 
-
-h1 {
-    text-align: center;
+.consulta{
     color: blueviolet;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
     font-weight: bold;
-    margin-top: 1%;
-    font-size: xx-large;
+    font-size: x-large;
+
 }
 
 h2 {
@@ -248,10 +247,6 @@ p {
         box-sizing: border-box;
     }
 
-    h1{
-        font-size: large;
-        font-weight: bold;
-    }
     h2{
         font-size: medium;
     }
@@ -270,26 +265,12 @@ p {
     .contact-form div label{
         font-size: small;
     }
+    .consulta{
+        font-size: medium;
+    }
+    p{
+        font-size: smaller;
+    }
     
-    footer{
-        flex-direction: column;
-    }
-    .social-media{
-        flex-direction: row;
-        padding: 1rem;
-    }
-    i{
-        font-size: 20px;
-    }
-    .instagram-acc{
-        font-size: smaller;
-    }
-    .facebook-acc{
-        font-size: smaller;
-    }
-    iframe{
-        margin-left: 0%;
-        width: 100%;
-    }
 
 }

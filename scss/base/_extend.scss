@@ -1,0 +1,8 @@
+%disposicion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header{
+    @extend %disposicion;
+}
