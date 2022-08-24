@@ -53,23 +53,23 @@ footer iframe {
   margin-left: auto;
   width: 40%;
 }
-footer .instagram-acc {
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: left;
-  font-weight: bold;
-  margin-left: 1rem;
-}
-footer .facebook-acc {
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: left;
-  font-weight: bold;
-  margin-left: 1rem;
-}
 footer .social-media {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+footer .social-media .instagram-acc {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+footer .social-media .facebook-acc {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 1rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -79,6 +79,7 @@ footer .social-media {
   footer .social-media {
     flex-direction: row;
     padding: 1rem;
+    justify-content: center;
   }
   footer i {
     font-size: 20px;

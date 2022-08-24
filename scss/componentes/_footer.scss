@@ -9,74 +9,82 @@ footer {
         color: nth($colour, 3);
         margin-left: nth($bank, 1);
         margin-top: nth($bank, 1);
-        border: map-get($i, $key:edge );
-        padding: map-get($i, $key:filling );
+        border: map-get($i, $key: edge);
+        padding: map-get($i, $key: filling);
         border-radius: $circle;
     }
 
     p {
         font-size: nth($size, 1);
         color: nth($colour, 3);
-        font-style: nth($type, 1 );
-        line-height: nth($height, 2 );
-        margin-top: nth($bank, 5 );
-        font-size: nth($size ,3 );
-        font-weight: nth($weight-letter, 1 );
+        font-style: nth($type, 1);
+        line-height: nth($height, 2);
+        margin-top: nth($bank, 5);
+        font-size: nth($size , 3);
+        font-weight: nth($weight-letter, 1);
         font-family: $verdana-style;
 
     }
 
 
     iframe {
-        display: nth($show, 1 );
-        margin-left: nth($bank, 4 );
-        width: nth($wideness, 4 );
-    }
-
-    .instagram-acc {
-        color: nth($colour, 3);
-        font-family: $verdana-style;
-        text-align: nth($text-order, 1);
-        font-weight: nth($weight-letter, 1);
-        margin-left: nth($bank, 1 );
-    }
-
-    .facebook-acc {
-        color: nth($colour, 3);
-        font-family: $verdana-style;
-        text-align: nth($text-order, 1);
-        font-weight: nth($weight-letter, 1);
-        margin-left: nth($bank, 1 );
+        display: nth($show, 1);
+        margin-left: nth($bank, 4);
+        width: nth($wideness, 4);
     }
 
     .social-media {
         display: map-get($footer, $key: display);
-        flex-direction: nth($direction, 1 );
+        flex-direction: nth($direction, 2);
+
+        .instagram-acc {
+            color: nth($colour, 3);
+            font-family: $verdana-style;
+            text-align: nth($text-order, 1);
+            font-weight: nth($weight-letter, 1);
+            margin-left: nth($bank, 1);
+        }
+
+        .facebook-acc {
+            color: nth($colour, 3);
+            font-family: $verdana-style;
+            text-align: nth($text-order, 1);
+            font-weight: nth($weight-letter, 1);
+            margin-left: nth($bank, 1);
+        }
+
+
     }
 
 }
 
-@media  screen and (max-width: 768px) {
-    footer{
-        flex-direction: nth($direction, 1 );
-        .social-media{
-            flex-direction: nth($direction, 2 );
-            padding: nth($bank, 1 );
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: nth($direction, 1);
+
+        .social-media {
+            flex-direction: nth($direction, 2);
+            padding: nth($bank, 1);
+            justify-content: center;
         }
-        i{
-            font-size: nth($size, 4 );
+
+        i {
+            font-size: nth($size, 4);
         }
-        .instagram-acc{
+
+        .instagram-acc {
             font-size: smaller;
         }
-        .facebook-acc{
+
+        .facebook-acc {
             font-size: smaller;
         }
-        iframe{
+
+        iframe {
             margin-left: 0%;
             width: nth($wideness, 5);
         }
     }
-    
-    
+
+
 }
