@@ -7,7 +7,7 @@ footer {
     i {
         font-size: nth($size, 1);
         color: nth($colour, 3);
-        margin-left: nth($bank, 1);
+        margin-left: nth($bank, 2);
         margin-top: nth($bank, 1);
         border: map-get($i, $key: edge);
         padding: map-get($i, $key: filling);
@@ -30,19 +30,23 @@ footer {
     iframe {
         display: nth($show, 1);
         margin-left: nth($bank, 4);
-        width: nth($wideness, 4);
+        width: nth($wideness, 3);
+        height: nth($bank, 6 );
     }
 
     .social-media {
         display: map-get($footer, $key: display);
         flex-direction: nth($direction, 2);
+        margin-left:nth($bank, 8);
+        align-items: center;
+        
 
         .instagram-acc {
             color: nth($colour, 3);
             font-family: $verdana-style;
             text-align: nth($text-order, 1);
             font-weight: nth($weight-letter, 1);
-            margin-left: nth($bank, 1);
+            margin-left: nth($bank, 2);
         }
 
         .facebook-acc {
@@ -50,7 +54,7 @@ footer {
             font-family: $verdana-style;
             text-align: nth($text-order, 1);
             font-weight: nth($weight-letter, 1);
-            margin-left: nth($bank, 1);
+            margin-left: nth($bank, 2);
         }
 
 
@@ -66,6 +70,7 @@ footer {
             flex-direction: nth($direction, 2);
             padding: nth($bank, 1);
             justify-content: center;
+            margin-left: 0%;
         }
 
         i {

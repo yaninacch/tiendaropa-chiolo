@@ -32,7 +32,7 @@ footer {
 footer i {
   font-size: 47px;
   color: white;
-  margin-left: 1rem;
+  margin-left: 2rem;
   margin-top: 1rem;
   border: 4px solid white;
   padding: 0.8rem;
@@ -51,25 +51,28 @@ footer p {
 footer iframe {
   display: block;
   margin-left: auto;
-  width: 40%;
+  width: 30%;
+  height: 20rem;
 }
 footer .social-media {
   display: flex;
   flex-direction: row;
+  margin-left: 5rem;
+  align-items: center;
 }
 footer .social-media .instagram-acc {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: left;
   font-weight: bold;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 footer .social-media .facebook-acc {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: left;
   font-weight: bold;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -80,6 +83,7 @@ footer .social-media .facebook-acc {
     flex-direction: row;
     padding: 1rem;
     justify-content: center;
+    margin-left: 0%;
   }
   footer i {
     font-size: 20px;

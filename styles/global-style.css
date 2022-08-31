@@ -178,6 +178,7 @@ p {
 
 .input-wrapper input {
     width: fit-content;
+    width: 50%;
 }
 
 .contact-form div label {
@@ -252,6 +253,9 @@ p {
         padding: 1rem;
         box-sizing: border-box;
     }  
+    .clothes {
+        margin-bottom: 4rem;
+    }
 }
 
 
